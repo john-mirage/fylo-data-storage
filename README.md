@@ -22,6 +22,8 @@ Users should be able to:
 
 ### Screenshot
 
+![Screenshot](./docs/fylo-data-storage.png)
+
 ### Links
 
 - Solution URL: TBA
