@@ -6,6 +6,11 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      xs: "300px",
+      sm: "375px",
+      lg: "970px",
+    },
     colors: {
       "gradient-from": "hsl(6, 100%, 80%)",
       "gradient-to": "hsl(335, 100%, 65%)",
@@ -25,6 +30,14 @@ module.exports = {
       spacing: {
         "gap": "1.5625rem",
       },
+      maxWidth: {
+        mobile: "325px",
+        desktop: "920px",
+      },
+      backgroundImage: {
+        'mobile': "url('/src/assets/images/bg-mobile.png')",
+        'desktop': "url('/src/assets/images/bg-desktop.png')",
+      }
     },
   },
   plugins: [],
